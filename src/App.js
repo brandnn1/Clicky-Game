@@ -111,7 +111,7 @@ class App extends Component {
           <br />
           Best Score: {this.state.bestScore}
         </h3>
-        <div className="container">
+
 
             {this.state.matches.map(match => (
               <MatchCard
@@ -121,7 +121,7 @@ class App extends Component {
                 image={match.image}
               />
             ))}
-          </div>
+
       </Wrapper>
       </div>
     );
